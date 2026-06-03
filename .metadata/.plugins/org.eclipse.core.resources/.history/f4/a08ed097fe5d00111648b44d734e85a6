@@ -1,0 +1,42 @@
+package com.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/login")
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		String email = req.getParameter("email");
+		String pass = req.getParameter("pass");
+		
+		PrintWriter writer = resp.getWriter();
+		
+		if("hransari@123gmail.com".equals(email) && "hashim123".equals(pass)) {
+			writer.println("<h1 style='text-align:center;'>Login Successfully</h1>");
+			System.out.println("Login Successfully");
+			req.getRequestDispatcher("search.html").forward(req, resp);
+		}
+		else {
+			resp.setContentType("text/html");
+			writer.println("<h1 style='text-align:center; color:red;'>Login Failed</h1>");
+			System.out.println("Login Failed");
+			
+			req.getRequestDispatcher("login.html").include(req, resp);
+		}
+		
+		
+	}
+
+}

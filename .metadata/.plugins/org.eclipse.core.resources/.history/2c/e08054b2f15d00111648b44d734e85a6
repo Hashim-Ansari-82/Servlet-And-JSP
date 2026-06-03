@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<h2 style="text-align:center">
+<a href="login/login.html"> login</a>
+</h2>
+<h2 style="text-align:center">
+<a href="login/register.html"> register</a>
+</h2>
+	
+</body>
+</html>

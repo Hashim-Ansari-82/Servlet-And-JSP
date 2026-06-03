@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<h2 style="text-align:center">
+<a href="user/login.html"> login</a>
+</h2>
+<h2 style="text-align:center">
+<a href="user/register.html"> register</a>
+</h2>
+<h2 style="text-align:center">
+<a href="user/search.html" style="color:green"> Search</a>
+</h2>
+	
+</body>
+</html>

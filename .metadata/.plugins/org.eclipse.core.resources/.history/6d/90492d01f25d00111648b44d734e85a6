@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<h2 style="text-align:center">Register Form</h2>
+	<div class="container">
+		<div class="card">
+			<div class="card-body">
+			<div align="center">
+					<form action="register" method="get">
+
+							<input type="text" name="name" placeholder="Enter Name"> <br><br> <input
+								type="text" name="email" placeholder="Enter Email"> <br> <br> <input type="submit"
+		
+								style="text-align: center" value="Submit">
+					 </form>
+					 </div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

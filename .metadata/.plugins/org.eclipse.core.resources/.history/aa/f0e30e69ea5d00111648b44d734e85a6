@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<form action="register" method="get">
+ <div class="container-center">
+    <input type="text" name="name">
+    <br>
+    <input type="text" name="email">
+    <br>	
+    <input type="submit" style="text-align:center" value="Submit">
+ </div>
+</form>
+
+</body>
+</html>

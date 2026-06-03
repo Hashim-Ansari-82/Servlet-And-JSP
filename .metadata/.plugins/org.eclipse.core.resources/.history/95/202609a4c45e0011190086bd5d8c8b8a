@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="text-align:center">
+<h1>This is Home page</h1>
+<h1>
+<a href="first">Click Me</a>
+</h1>
+</div>
+</body>
+</html>

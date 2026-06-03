@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<h2 style="text-align:center">Login Form</h2>
+	<div class="container">
+		<div class="card">
+			<div class="card-body">
+			<div align="center">
+					<form action="search" method="post">
+
+							<input type="text" name="search" placeholder="Search"> 
+							<br><br> <input
+							style="text-align: center" value="Search">
+					 </form>
+					 </div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

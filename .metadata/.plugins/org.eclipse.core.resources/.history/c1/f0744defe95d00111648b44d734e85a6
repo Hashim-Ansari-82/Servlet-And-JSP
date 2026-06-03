@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<form action="register" method="get"></form>
+<h1 style="text-align:center">
+<a href="register">Register</a>
+</h1>
+</body>
+</html>

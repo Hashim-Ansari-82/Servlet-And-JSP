@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="text-align:center">
+<h1>This is Home page</h1>
+<h1>
+<a href="first">Click for go to Servlet</a>
+</h1>
+<h1>
+<a href="second">Click for go to GenericServlet</a>
+</h1>
+<h1>
+<a href="third">Click for go to Get</a>
+</h1>
+
+<form action="third" method="post">
+
+<button type="submit"><h1>Click for go to Post</h1></button>
+
+</form>
+</div>
+</body>
+</html>
